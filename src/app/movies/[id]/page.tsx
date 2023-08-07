@@ -64,7 +64,13 @@ const MovieDetailPage = ({ params }: { params: { id: string } }) => {
               評分：
               <br />
               <span className="text-yellow-500 flex  items-center">
-                <AiFillStar /> {movie.vote_average.toFixed(1)}
+                <AiFillStar />{" "}
+                {movie.vote_average !== null && (
+                  <>
+                    {movie.vote_average}
+                    <AiFillStar />
+                  </>
+                )}
               </span>
             </p>
           </div>
