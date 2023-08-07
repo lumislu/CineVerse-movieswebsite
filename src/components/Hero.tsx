@@ -21,7 +21,7 @@ const Hero = ({ top10Movies }: { top10Movies: movieProps[] }) => {
   const currentMovie = top10Movies[currentMovieIndex];
 
   return (
-    <div className="relative flex flex-col items-start justify-end w-full h-screen">
+    <div className="relative flex flex-col items-start justify-end w-full h-screen text-gray-200">
       <div
         className="relative bg-center bg-cover bg-no-repeat flex flex-col items-start justify-end w-full h-screen"
         style={{
@@ -47,14 +47,14 @@ const Hero = ({ top10Movies }: { top10Movies: movieProps[] }) => {
               <NewButton
                 Icon={AiFillPlayCircle}
                 title="播放"
-                containerStyles="bg-orange-500/90 py-2 px-6 rounded-lg hover:bg-orange-700"
+                containerStyles="bg-orange-500/90 py-2 px-6 rounded-lg hover:bg-orange-700 text-gray-200"
               />
             </Link>
             <Link href={currentMovie?.id ? `/movies/${currentMovie.id}` : "#"}>
               <NewButton
                 Icon={AiOutlineInfoCircle}
                 title="更多資訊"
-                containerStyles="bg-gray-500/90 py-2 px-6 rounded-lg hover:bg-gray-700"
+                containerStyles="bg-gray-500/90 py-2 px-6 rounded-lg hover:bg-gray-700 text-gray-200"
               />
             </Link>
           </div>

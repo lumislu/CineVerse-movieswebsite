@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <header className="  absolute z-10 w-full px-auto  bg-gradient-to-b from-black to-black/0 ">
-      <nav className="w-full flex justify-between px-6 py-2 ">
+      <nav className="w-full flex justify-between px-6 py-2 text-gray-200 ">
         <div className="flex items-center justify-center gap-10">
           {/* logo */}
           <a href="/" className="flex h-10 items-center justify-center gap-2 ">

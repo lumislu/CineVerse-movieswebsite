@@ -41,7 +41,7 @@ const DropdownMenu = ({
 
       {isDropdownOpen && (
         <div
-          className={`absolute w-[200px] flex flex-col  ${
+          className={`absolute w-[200px] flex flex-col text-gray-200  ${
             containerStyles && containerStyles[1]
           }`}
         >
@@ -50,12 +50,12 @@ const DropdownMenu = ({
           </span>
 
           <div
-            className={`w-full flex flex-col  bg-black/80 ${
+            className={`w-full flex flex-col  bg-black/80 text-gray-200 ${
               containerStyles && containerStyles[2]
             }`}
           >
             {selectedUser && selectedUser.length > 0 ? (
-              <div className=" text-xs divide-y divide-gray-300/30">
+              <div className=" text-xs divide-y divide-gray-300/30 text-gray-200">
                 <div className="flex flex-col p-3 gap-3 ">
                   {selectedUser.map((user, idx) => (
                     <Link
@@ -100,7 +100,7 @@ const DropdownMenu = ({
 
             {items && items.length > 0 ? (
               <div
-                className={`flex flex-col items-center justify-center ${
+                className={`flex flex-col items-center justify-center text-gray-200 ${
                   containerStyles && containerStyles[3]
                 }`}
               >

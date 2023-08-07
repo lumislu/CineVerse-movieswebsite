@@ -7,7 +7,7 @@ const Carousel = ({ top10Movies }:CarouselProps) => {
   return (
     <div
       id="carousel-container"
-      className="relative flex flex-col p-2 w-full h-fit "
+      className="relative flex flex-col p-2 w-full h-fit bg-black text-gray-200 "
     >
       <p className="pl-10 text-lg sm:text-2xl ">熱播排行Top10</p>
       <div id="carouselbar" className="flex  gap-4  overflow-y-auto ">

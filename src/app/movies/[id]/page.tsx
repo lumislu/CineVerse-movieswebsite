@@ -34,10 +34,10 @@ const MovieDetailPage = ({ params }: { params: { id: string } }) => {
   }
 
   return (
-    <div className="pt-14 p-10 flex flex-1 flex-col gap-4 w-screen  ">
+    <div className="pt-14 p-10 flex flex-1 flex-col gap-4 w-screen bg-black ">
       <Link
         href="/movies"
-        className="hover:bg-slate-300/70 w-20  px-4 py-2 rounded-full text-center "
+        className="hover:bg-slate-300/70 w-20  px-4 py-2 rounded-full text-center text-gray-200 "
       >
         返回
       </Link>

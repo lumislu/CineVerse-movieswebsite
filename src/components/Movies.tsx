@@ -35,7 +35,7 @@ const Movies = () => {
   };
 
   return (
-    <div className="pt-20 p-2 sm:p-10">
+    <div className="pt-20 p-2 sm:p-10 bg-black text-gray-200">
       <h1>電影列表</h1>
       <div className="grid  grid-cols-2 grid-flow-row gap-4 sm:grid-cols-3 sm:gap-10 lg:grid-cols-4 ">
         {movies.length > 0 ? (
@@ -61,7 +61,7 @@ const Movies = () => {
                 <div className="z-30 absolute top-0 rounded-2xl overflow-hidden bg-stone-900  transform translate-y-2 transition-all ease-in-out duration-300 hover:opacity-100 hover:translate-y-0 hover:scale-105">
                   <Link
                     href={`/movies/${movie.id}`}
-                    className=" relative flex flex-col items-start justify-center scale-100"
+                    className=" relative flex flex-col items-start justify-center scale-100 text-gray-200"
                   >
                     <div>
                       <img
