@@ -4,7 +4,7 @@ export const options = {
   headers: {
     accept: "application/json",
     Authorization:
-      `"Bearer ${process.env.API}"`,
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZGRlM2QzYzBjMWYxNTYxYmE5MzMzN2VhNjk1OTg0ZSIsInN1YiI6IjY0MTBiOGYyZWRlMWIwMjhjNTk3OTAwZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5oczX-78kgXxYyXg-r6LNZaWIJ0EANfnb4J8Eu9Xto4",
   },
 };
 
